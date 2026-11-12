@@ -1,4 +1,4 @@
-<img width="332" height="434" alt="download" src="https://github.com/user-attachments/assets/baf4e879-ac0e-4990-8c49-232a26163be8" /># EXP-3-Record-Histogram-processing
+# EXP-3-Record-Histogram-processing
 
 ---
 
@@ -111,25 +111,23 @@ plt.subplot(122); plt.hist(img_eq.ravel(),256,range = [0, 256]); plt.title('Hist
 
 ##  Output
 
-<img width="332" height="434" alt="download" src="https://github.com/user-attachments/assets/0e7e50e4-6b93-40be-a840-ed6ea43fff39" />
+<img width="332" height="434" alt="download" src="https://github.com/user-attachments/assets/0e7e50e4-6b93-40be-a840-ed6ea43fff39" /><br>
 
-<img width="579" height="434" alt="download" src="https://github.com/user-attachments/assets/34269163-493e-4265-a36e-d7ba5308e6c1" />
+<img width="579" height="434" alt="download" src="https://github.com/user-attachments/assets/34269163-493e-4265-a36e-d7ba5308e6c1" /><br>
 
-<img width="579" height="434" alt="download" src="https://github.com/user-attachments/assets/88382ea5-e1b4-4909-9315-4927ba318699" />
-
-
-<img width="332" height="434" alt="download" src="https://github.com/user-attachments/assets/16efcd3d-d51b-4f35-8453-8beb39cf677d" />
-
-<img width="332" height="434" alt="download" src="https://github.com/user-attachments/assets/a6d9da6b-2057-4b9f-a107-f181a14aa4de" />
-
-<img width="579" height="434" alt="download" src="https://github.com/user-attachments/assets/fa373a7b-79e5-4a45-81d6-a9cf0dd97c5f" />
+<img width="579" height="434" alt="download" src="https://github.com/user-attachments/assets/88382ea5-e1b4-4909-9315-4927ba318699" /><br>
 
 
-<img width="1163" height="414" alt="download" src="https://github.com/user-attachments/assets/0a863436-a79a-4014-96a7-b7f20b835738" />
+<img width="332" height="434" alt="download" src="https://github.com/user-attachments/assets/16efcd3d-d51b-4f35-8453-8beb39cf677d" /><br>
+
+<img width="332" height="434" alt="download" src="https://github.com/user-attachments/assets/a6d9da6b-2057-4b9f-a107-f181a14aa4de" /><br>
+
+<img width="579" height="434" alt="download" src="https://github.com/user-attachments/assets/fa373a7b-79e5-4a45-81d6-a9cf0dd97c5f" /><br>
 
 
+<img width="1163" height="414" alt="download" src="https://github.com/user-attachments/assets/0a863436-a79a-4014-96a7-b7f20b835738" /><br>
 
-<img width="1246" height="372" alt="download" src="https://github.com/user-attachments/assets/5641d3d2-7238-4210-99ef-290b4eabe6a5" />
+<img width="1246" height="372" alt="download" src="https://github.com/user-attachments/assets/5641d3d2-7238-4210-99ef-290b4eabe6a5" /><br>
 
 
 
