@@ -1,4 +1,4 @@
-# EXP-3-Record-Histogram-processing
+<img width="332" height="434" alt="download" src="https://github.com/user-attachments/assets/baf4e879-ac0e-4990-8c49-232a26163be8" /># EXP-3-Record-Histogram-processing
 
 ---
 
@@ -77,7 +77,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 ## Histogram Equalization for Grayscale Images
-img = cv2.imread('parrot.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('1sample.png', cv2.IMREAD_GRAYSCALE)
 plt.imshow(img, cmap='gray')
 plt.title('Original Image')
 plt.show()
@@ -92,7 +92,7 @@ plt.imshow(img_eq, cmap='gray')
 plt.title('Original Image')
 plt.show()
 ## Histogram Equalization for Color Images
-img = cv2.imread('parrot.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('1sample.png', cv2.IMREAD_COLOR)
 img_hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 img_hsv[:,:,2] = cv2.equalizeHist(img_hsv[:, :, 2])
 img_eq = cv2.cvtColor(img_hsv, cv2.COLOR_HSV2BGR)
@@ -111,22 +111,28 @@ plt.subplot(122); plt.hist(img_eq.ravel(),256,range = [0, 256]); plt.title('Hist
 
 ##  Output
 
-<img width="336" height="434" alt="download" src="https://github.com/user-attachments/assets/a6b417ed-b5b2-482d-afb7-4c5a2f4e6f07" /><br>
+<img width="332" height="434" alt="download" src="https://github.com/user-attachments/assets/0e7e50e4-6b93-40be-a840-ed6ea43fff39" />
 
-<img width="579" height="434" alt="download" src="https://github.com/user-attachments/assets/02d61fc5-f35b-467f-82cc-dcedd8e6c809" /><br>
+<img width="579" height="434" alt="download" src="https://github.com/user-attachments/assets/34269163-493e-4265-a36e-d7ba5308e6c1" />
 
-<img width="579" height="434" alt="download" src="https://github.com/user-attachments/assets/1f4ff472-3598-42dd-8499-8dee55cb5df6" /><br>
-
-<img width="336" height="434" alt="download" src="https://github.com/user-attachments/assets/8f071060-075c-435c-8db5-4fe6fd32042e" /><br>
-
-<img width="336" height="434" alt="download" src="https://github.com/user-attachments/assets/ee7344ff-7b25-4724-8c11-b1eac02dbd61" /><br>
-
-<img width="547" height="434" alt="download" src="https://github.com/user-attachments/assets/75145b88-8bc2-4a4d-84f4-8d955454377c" /><br>
-
-<img width="1167" height="414" alt="download" src="https://github.com/user-attachments/assets/d5b36727-df3c-4464-9f4d-7f424ca17030" /><br>
+<img width="579" height="434" alt="download" src="https://github.com/user-attachments/assets/88382ea5-e1b4-4909-9315-4927ba318699" />
 
 
-<img width="1214" height="372" alt="download" src="https://github.com/user-attachments/assets/0bebec2e-47e7-481f-8988-723b641980a1" /><br>
+<img width="332" height="434" alt="download" src="https://github.com/user-attachments/assets/16efcd3d-d51b-4f35-8453-8beb39cf677d" />
+
+<img width="332" height="434" alt="download" src="https://github.com/user-attachments/assets/a6d9da6b-2057-4b9f-a107-f181a14aa4de" />
+
+<img width="579" height="434" alt="download" src="https://github.com/user-attachments/assets/fa373a7b-79e5-4a45-81d6-a9cf0dd97c5f" />
+
+
+<img width="1163" height="414" alt="download" src="https://github.com/user-attachments/assets/0a863436-a79a-4014-96a7-b7f20b835738" />
+
+
+
+<img width="1246" height="372" alt="download" src="https://github.com/user-attachments/assets/5641d3d2-7238-4210-99ef-290b4eabe6a5" />
+
+
+
 
 
 
